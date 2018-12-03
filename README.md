@@ -11,7 +11,7 @@ This Action for [Composer][link-composer] enables arbitrary actions with the Com
 Via GitHub Workflow
 
 ```hcl
-action "Install" {
+action "Composer Install" {
   uses = "pxgamer/composer-action@master"
   args = "install"
 }
