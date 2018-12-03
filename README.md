@@ -9,7 +9,14 @@ This Action for Composer enables arbitrary actions with the Composer command-lin
 
 ## Install
 
-...
+Via Workflow
+
+```hcl
+action "Install" {
+  uses = "pxgamer/composer-action@master"
+  args = "install"
+}
+```
 
 ## Usage
 
