@@ -1,4 +1,4 @@
-FROM composer:latest
+FROM composer:1.7
 
 LABEL version="0.0.1"
 LABEL repository="http://github.com/pxgamer/composer-action"
@@ -11,6 +11,6 @@ LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="blue"
 COPY LICENSE.md README.md /
 
-COPY "entrypoint.sh" "/entrypoint.sh"
+COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["help"]

@@ -2,6 +2,6 @@
 *
 # include required files with an exception
 !entrypoint.sh
-!LICENSE
+!LICENSE.md
 !README.md
 !THIRD_PARTY_NOTICE.md
