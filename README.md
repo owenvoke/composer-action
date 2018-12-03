@@ -6,9 +6,9 @@
 
 This Action for [Composer][link-composer] enables arbitrary actions with the Composer command-line client.
 
-## Install
+## Usage
 
-Via Workflow
+Via GitHub Workflow
 
 ```hcl
 action "Install" {
@@ -16,10 +16,6 @@ action "Install" {
   args = "install"
 }
 ```
-
-## Usage
-
-...
 
 ## Change log
 
