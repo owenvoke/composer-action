@@ -16,7 +16,7 @@ Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com) princip
 ### Fixed
 - Update the permissions for `endpoint.sh` to be executable
 
-## [v0.0.1] - 2018-12-03
+## v0.0.1 - 2018-12-03
 
 ### Added
 - Initial release
