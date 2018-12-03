@@ -1,6 +1,6 @@
 FROM composer:1.7
 
-LABEL version="0.0.1"
+LABEL version="0.0.2"
 LABEL repository="http://github.com/pxgamer/composer-action"
 LABEL homepage="http://github.com/pxgamer/composer-action"
 LABEL maintainer="Owen Voke <owzie123@gmail.com>"
