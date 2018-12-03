@@ -1,4 +1,4 @@
-FROM composer:1.7
+FROM composer:1
 
 LABEL version="0.0.2"
 LABEL repository="http://github.com/pxgamer/composer-action"
