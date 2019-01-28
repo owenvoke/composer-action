@@ -3,6 +3,7 @@
 [![Latest Version on GitHub][ico-version]][link-github]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
+[![GitHubActions](https://img.shields.io/badge/listed%20on-GitHubActions-blue.svg)](https://github-actions.netlify.com/composer)
 
 This Action for [Composer][link-composer] enables arbitrary actions with the Composer command-line client.
 
