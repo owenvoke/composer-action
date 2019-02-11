@@ -6,6 +6,10 @@ Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com) princip
 
 ## [Unreleased]
 
+### Changed
+- Update to use HTTPS links in Dockerfile
+- Remove Travis badges which are unused
+
 ## [v1.0.0] - 2018-12-03
 
 ### Changed
