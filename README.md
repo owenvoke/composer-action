@@ -3,6 +3,7 @@
 [![Latest Version on GitHub][ico-version]][link-github]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
+[![GitHubActions][ico-github-actions]][link-github-actions]
 
 This Action for [Composer][link-composer] enables arbitrary actions with the Composer command-line client.
 
@@ -41,9 +42,11 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-version]: https://img.shields.io/github/tag/pxgamer/composer-action.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/pxgamer/composer-action/master.svg?style=flat-square
+[ico-github-actions]: https://img.shields.io/badge/listed%20on-GitHubActions-blue.svg?style=flat-square
 
 [link-composer]: https://getcomposer.org
 [link-github]: https://github.com/pxgamer/composer-action/releases
 [link-travis]: https://travis-ci.com/pxgamer/composer-action
+[link-github-actions]: https://github-actions.netlify.com/composer
 [link-author]: https://github.com/pxgamer
 [link-contributors]: ../../contributors
