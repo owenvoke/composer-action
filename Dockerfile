@@ -1,8 +1,8 @@
 FROM composer:1
 
-LABEL version="1.0.0"
-LABEL repository="http://github.com/pxgamer/composer-action"
-LABEL homepage="http://github.com/pxgamer/composer-action"
+LABEL version="1.0.1"
+LABEL repository="https://github.com/pxgamer/composer-action"
+LABEL homepage="https://github.com/pxgamer/composer-action"
 LABEL maintainer="Owen Voke <owzie123@gmail.com>"
 
 LABEL com.github.actions.name="GitHub Action for Composer"
