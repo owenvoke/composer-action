@@ -4,7 +4,12 @@ All notable changes to `composer-action` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com) principles.
 
-## [Unreleased]
+## Unreleased
+
+## [v2.0.1] - 2019-08-19
+
+### Fixed
+- Fix usage details in the README ([#3](https://github.com/pxgamer/composer-action/pull/3))
 
 ## [v2.0.0] - 2019-08-19
 
@@ -33,7 +38,7 @@ Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com) princip
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/pxgamer/composer-action/compare/master...develop
+[v2.0.1]: https://github.com/pxgamer/composer-action/compare/v2.0.0...v2.0.1
 [v2.0.0]: https://github.com/pxgamer/composer-action/compare/v1.0.1...v2.0.0
 [v1.0.1]: https://github.com/pxgamer/composer-action/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/pxgamer/composer-action/compare/v0.0.2...v1.0.0
