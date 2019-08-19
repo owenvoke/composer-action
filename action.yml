@@ -1,0 +1,15 @@
+name: 'GitHub Action for Composer'
+description: 'Wraps the Composer CLI to enable common Composer commands.'
+author: 'Owen Voke <@pxgamer>'
+inputs:
+    command:
+        description: 'User defined command'
+        required: true
+branding:
+    color: 'blue'
+    icon: 'package'
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    args:
+    - ${{ inputs.command }}
