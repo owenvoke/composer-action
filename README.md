@@ -10,11 +10,17 @@ This Action for [Composer][link-composer] enables arbitrary actions with the Com
 
 Via GitHub Workflow
 
-```hcl
-action "Composer Install" {
-  uses = "pxgamer/composer-action@master"
-  args = "install"
-}
+```yml
+on: push
+name: CI
+jobs:
+  composer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: pxgamer/composer-action@v2
+        with:
+          command: install --optimize-autoloader --prefer-dist
 ```
 
 ## Change log
