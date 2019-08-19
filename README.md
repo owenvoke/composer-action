@@ -18,7 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: pxgamer/composer-action@v2
+      # For YAML Actions, use v2 or later
+      - uses: pxgamer/composer-action@master
         with:
           command: install --optimize-autoloader --prefer-dist
 ```
