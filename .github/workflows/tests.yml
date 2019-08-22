@@ -1,0 +1,19 @@
+name: Tests
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Test the Composer require command
+      uses: ./
+      with:
+        command: require --no-interaction psr/http-message
+    - name: Test the Composer help command
+      uses: ./
+      with:
+        command: help
