@@ -1,4 +1,4 @@
-# composer-action
+# GitHub Action for Composer
 
 [![Latest Version on GitHub][ico-version]][link-github]
 [![Software License][ico-license]](LICENSE.md)
