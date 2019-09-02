@@ -6,6 +6,15 @@ Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com) princip
 
 ## Unreleased
 
+## [v2.1.0] - 2019-09-02
+
+### Added
+- Add tests for the Composer action ([#5](https://github.com/pxgamer/composer-action/pull/5))
+- Add 'install' as a default for the action ([#7](https://github.com/pxgamer/composer-action/pull/7))
+
+### Changed
+- Update the heading in the README ([#4](https://github.com/pxgamer/composer-action/pull/4))
+
 ## [v2.0.1] - 2019-08-19
 
 ### Fixed
@@ -38,6 +47,7 @@ Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com) princip
 ### Added
 - Initial release
 
+[v2.1.0]: https://github.com/pxgamer/composer-action/compare/v2.0.1...v2.1.0
 [v2.0.1]: https://github.com/pxgamer/composer-action/compare/v2.0.0...v2.0.1
 [v2.0.0]: https://github.com/pxgamer/composer-action/compare/v1.0.1...v2.0.0
 [v1.0.1]: https://github.com/pxgamer/composer-action/compare/v1.0.0...v1.0.1
