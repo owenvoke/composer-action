@@ -3,8 +3,9 @@ description: 'Wraps the Composer CLI to enable common Composer commands.'
 author: 'Owen Voke <@pxgamer>'
 inputs:
     command:
-        description: 'User defined command'
-        required: true
+        description: 'User defined command (e.g. install)'
+        required: false
+        default: 'install'
 branding:
     color: 'blue'
     icon: 'package'
