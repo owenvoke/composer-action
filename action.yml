@@ -4,7 +4,8 @@ author: 'Owen Voke <@pxgamer>'
 inputs:
     command:
         description: 'User defined command'
-        required: true
+        required: false
+        default: 'install'
 branding:
     color: 'blue'
     icon: 'package'
